@@ -10,9 +10,11 @@ For Example: function("string") -> "gnirts"
 2: Write a function that accepts three integers as input and returns as output the
 largest of the three.
 For Example: function(1, 3, 2) -> 3
+
 3: Write a function that calculates the factorial of an input integer using recursion.
 Factorial: n! = n * (n-1) * (n-2) * ... * 1, so 3! = 3 * 2 * 1 = 6
 For Example: function(3) = 6
+
 4: Write a function that calculates the Nth entry of the Fibonacci sequence (Do not
 include 0 in the sequence).
 Fibonacci Sequence: 1, 1, 2, 3, 5, 8, ...
