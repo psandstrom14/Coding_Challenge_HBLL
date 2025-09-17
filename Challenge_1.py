@@ -6,15 +6,14 @@
 
 
 def reverse(string_1):
-     new_list = []
+     new_string = ""
      list_1 = list(string_1)
-     length = len(list_1)
+     length = len(string_1)
      
      for _ in range(length):
-        last = len(list_1) - 1
-        new_list.append(list_1[last])
-        list_1.pop()
-     return new_list
+        new_string += list_1.pop()
+        
+     return new_string
 
 
-print(reverse("tacocat tacocat"))
+print(reverse("SAD"))

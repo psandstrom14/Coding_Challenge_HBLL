@@ -8,6 +8,4 @@ def find_max(num_1, num_2, num_3):
     largest = max(list)
     return largest
 
-
-
 print(find_max(1,3,2))
